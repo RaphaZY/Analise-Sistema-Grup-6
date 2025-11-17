@@ -1,0 +1,96 @@
+{
+  "usuarios": [
+    {
+      "id": "8b385599",
+      "nome": "Jo\u00e3o Silva",
+      "cpf": "12345678901",
+      "email": "joao@email.com",
+      "senha_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "tipo": "prestador",
+      "biometria_hash": "95e52dcef1a2d35b19965e8ab93a38734401a57ffc1a09b7729ab6866cea3c0d"
+    },
+    {
+      "id": "6e066641",
+      "nome": "Maria Santos",
+      "cpf": "98765432100",
+      "email": "maria@email.com",
+      "senha_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "tipo": "prestador",
+      "biometria_hash": "a941caf7ad546c9722fae6405a6e9d209a4f487126b75e170a5c8ff3c9edd901"
+    },
+    {
+      "id": "0bc2dc28",
+      "nome": "Carlos Oliveira",
+      "cpf": "11122233344",
+      "email": "carlos@email.com",
+      "senha_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "tipo": "cliente",
+      "biometria_hash": "c7f46c60be58e0f663486bc65ea8904ac6cc698ad9b4b0ab6c5cd3bc2efea421"
+    },
+    {
+      "id": "12f1672c",
+      "nome": "Ana Costa",
+      "cpf": "55566677788",
+      "email": "ana@email.com",
+      "senha_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "tipo": "cliente",
+      "biometria_hash": "e244e9ebd1f5585348f83b8de020cdfac56e33e98acb48dd7c8cf32daf001380"
+    },
+    {
+      "id": "8e5df4b2",
+      "nome": "Raphael",
+      "cpf": "12345678910",
+      "email": "rapha@email.com",
+      "senha_hash": "2c70dfbc967bd610fc7fbc6dfef0708a99d6be1fc44be3dffa47f0dde132442b",
+      "tipo": "cliente",
+      "biometria_hash": "9557f40c856d5f1b64c79c98172a43c5671c3c1b0f1d53a4e819c6cfc31aadec"
+    }
+  ],
+  "servicos": [
+    {
+      "id": "Encanador Residencial8b385599",
+      "prestador_id": "8b385599",
+      "titulo": "Encanador Residencial",
+      "descricao": "Conserto de vazamentos e instala\u00e7\u00f5es",
+      "valor": 150.0,
+      "ativo": true
+    },
+    {
+      "id": "Eletricista6e066641",
+      "prestador_id": "6e066641",
+      "titulo": "Eletricista",
+      "descricao": "Instala\u00e7\u00f5es el\u00e9tricas e reparos",
+      "valor": 200.0,
+      "ativo": true
+    },
+    {
+      "id": "Pintura Residencial8b385599",
+      "prestador_id": "8b385599",
+      "titulo": "Pintura Residencial",
+      "descricao": "Pintura interna e externa",
+      "valor": 800.0,
+      "ativo": true
+    }
+  ],
+  "contratos": [],
+  "notificacoes": [
+    {
+      "id": "8e5df4b2_Bem-vindo!_1763402647.5801258",
+      "usuario_id": "8e5df4b2",
+      "titulo": "Bem-vindo!",
+      "mensagem": "Ol\u00e1 Raphael, seja bem-vindo ao nosso sistema de servi\u00e7os! Sua biometria facial foi cadastrada com sucesso.",
+      "tipo": "info",
+      "lida": false
+    },
+    {
+      "id": "8e5df4b2_Login por biometria_1763402660.680984",
+      "usuario_id": "8e5df4b2",
+      "titulo": "Login por biometria",
+      "mensagem": "Login realizado com sucesso usando biometria facial.",
+      "tipo": "info",
+      "lida": false
+    }
+  ],
+  "avaliacoes": [],
+  "pagamentos": []
+}
