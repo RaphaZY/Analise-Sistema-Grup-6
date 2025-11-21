@@ -2,42 +2,42 @@ import time
 
 class Notificacao:
     def __init__(self, usuario_id, titulo, mensagem, tipo='info'):
-        self._id = f"{usuario_id}_{titulo}_{time.time()}"
-        self._usuario_id = usuario_id
-        self._titulo = titulo
-        self._mensagem = mensagem
-        self._tipo = tipo
-        self._lida = False
+        self.__id = f"{usuario_id}_{titulo}_{time.time()}"
+        self.__usuario_id = usuario_id
+        self.__titulo = titulo
+        self.__mensagem = mensagem
+        self.__tipo = tipo
+        self.__lida = False
     
     def get_id(self):
-        return self._id
+        return self.__id
     
     def get_usuario_id(self):
-        return self._usuario_id
+        return self.__usuario_id
     
     def get_titulo(self):
-        return self._titulo
+        return self.__titulo
     
     def get_mensagem(self):
-        return self._mensagem
+        return self.__mensagem
     
     def get_tipo(self):
-        return self._tipo
+        return self.__tipo
     
     def get_lida(self):
-        return self._lida
+        return self.__lida
     
     def marcar_como_lida(self):
-        self._lida = True
+        self.__lida = True
     
     def to_dict(self):
         return {
-            'id': self._id,
-            'usuario_id': self._usuario_id,
-            'titulo': self._titulo,
-            'mensagem': self._mensagem,
-            'tipo': self._tipo,
-            'lida': self._lida
+            'id': self.__id,
+            'usuario_id': self.__usuario_id,
+            'titulo': self.__titulo,
+            'mensagem': self.__mensagem,
+            'tipo': self.__tipo,
+            'lida': self.__lida
         }
     
     @classmethod
@@ -48,6 +48,6 @@ class Notificacao:
             mensagem=data['mensagem'],
             tipo=data['tipo']
         )
-        notificacao._lida = data['lida']
-        notificacao._id = data['id']
+        notificacao.__lida = data['lida']
+        notificacao.__id = data['id']
         return notificacao

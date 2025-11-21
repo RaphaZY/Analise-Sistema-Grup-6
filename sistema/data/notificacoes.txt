@@ -1,0 +1,12 @@
+id;usuario_id;titulo;mensagem;tipo;lida
+49924638_Bem-vindo!_1763749242.7003186;49924638;Bem-vindo!;Olá Maria rita, seja bem-vindo ao nosso sistema de serviços! Sua biometria facial foi cadastrada com sucesso.;info;False
+49924638_Login realizado_1763749310.9516919;49924638;Login realizado;Login realizado com sucesso como cliente.;info;False
+e130bdc2_Login por biometria_1763749688.0061843;e130bdc2;Login por biometria;Login realizado com sucesso usando biometria facial como cliente.;info;True
+e130bdc2_Login por biometria_1763756868.9086764;e130bdc2;Login por biometria;Login realizado com sucesso usando biometria facial como cliente.;info;True
+38d5bb85_Nova solicitação de serviço_1763756953.1638367;38d5bb85;Nova solicitação de serviço;Você recebeu uma nova solicitação para: Encanador Residencial;info;False
+e130bdc2_Serviço solicitado_1763756953.170041;e130bdc2;Serviço solicitado;Sua solicitação para Encanador Residencial foi enviada ao prestador.;info;True
+38d5bb85_Login por biometria_1763757256.99772;38d5bb85;Login por biometria;Login realizado com sucesso usando biometria facial como prestador.;info;False
+e130bdc2_Serviço aceito_1763757330.1472847;e130bdc2;Serviço aceito;O prestador aceitou seu serviço: Encanador Residencial;info;True
+e130bdc2_Serviço concluído_1763757358.453616;e130bdc2;Serviço concluído;O serviço Encanador Residencial foi concluído. Por favor, avalie o serviço.;info;True
+e130bdc2_Login por biometria_1763757381.9734862;e130bdc2;Login por biometria;Login realizado com sucesso usando biometria facial como cliente.;info;True
+38d5bb85_Nova avaliação_1763757411.7635157;38d5bb85;Nova avaliação;Você recebeu uma avaliação de 5 estrelas para o serviço Encanador Residencial;info;False

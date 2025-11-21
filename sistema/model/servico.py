@@ -1,53 +1,53 @@
 class Servico:
     def __init__(self, prestador_id, titulo, descricao, valor):
-        self._id = titulo + prestador_id
-        self._prestador_id = prestador_id
-        self._titulo = titulo
-        self._descricao = descricao
-        self._valor = valor
-        self._ativo = True
+        self.__id = titulo + prestador_id
+        self.__prestador_id = prestador_id
+        self.__titulo = titulo
+        self.__descricao = descricao
+        self.__valor = valor
+        self.__ativo = True
     
     def get_id(self):
-        return self._id
+        return self.__id
     
     def get_prestador_id(self):
-        return self._prestador_id
+        return self.__prestador_id
     
     def get_titulo(self):
-        return self._titulo
+        return self.__titulo
     
     def get_descricao(self):
-        return self._descricao
+        return self.__descricao
     
     def get_valor(self):
-        return self._valor
+        return self.__valor
     
     def get_ativo(self):
-        return self._ativo
+        return self.__ativo
     
     def set_titulo(self, novoTitulo):
-        self._titulo = novoTitulo
+        self.__titulo = novoTitulo
     
     def set_descricao(self, novaDescricao):
-        self._descricao = novaDescricao
+        self.__descricao = novaDescricao
     
     def set_valor(self, novoValor):
-        self._valor = novoValor
+        self.__valor = novoValor
     
     def desativar(self):
-        self._ativo = False
+        self.__ativo = False
     
     def ativar(self):
-        self._ativo = True
+        self.__ativo = True
     
     def to_dict(self):
         return {
-            'id': self._id,
-            'prestador_id': self._prestador_id,
-            'titulo': self._titulo,
-            'descricao': self._descricao,
-            'valor': self._valor,
-            'ativo': self._ativo
+            'id': self.__id,
+            'prestador_id': self.__prestador_id,
+            'titulo': self.__titulo,
+            'descricao': self.__descricao,
+            'valor': self.__valor,
+            'ativo': self.__ativo
         }
     
     @classmethod
@@ -58,5 +58,6 @@ class Servico:
             descricao=data['descricao'],
             valor=data['valor']
         )
-        servico._ativo = data['ativo']
+        servico.__ativo = data['ativo']
+        servico.__id = data['id']
         return servico

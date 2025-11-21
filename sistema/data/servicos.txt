@@ -1,0 +1,8 @@
+id;prestador_id;titulo;descricao;valor;ativo
+Encanador Residencial7d7e537d;7d7e537d;Encanador Residencial;Conserto de vazamentos e instalações;150.0;True
+Eletricista9afe4c62;9afe4c62;Eletricista;Instalações elétricas e reparos;200.0;True
+Pintura Residencial7d7e537d;7d7e537d;Pintura Residencial;Pintura interna e externa;800.0;True
+Encanador Residencial38d5bb85;38d5bb85;Encanador Residencial;Conserto de vazamentos e instalações;150.0;True
+Eletricistacab37567;cab37567;Eletricista;Instalações elétricas e reparos;200.0;True
+Pintura Residencial38d5bb85;38d5bb85;Pintura Residencial;Pintura interna e externa;800.0;True
+Carpinteiro Manutenção38d5bb85;38d5bb85;Carpinteiro Manutenção;Serviço de restauração/reparo;500.0;True
